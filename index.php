@@ -18,7 +18,7 @@
 </head>
 <body>
 <div class="container">
-    <h2 class="mt-5">Daily Routine Survey</h2>
+    <h2 class="mt-5">Daily Routine Survey-1</h2>
     <form action="submit.php" method="POST">
         <div class="form-group">
             <label for="name">Name:</label>
