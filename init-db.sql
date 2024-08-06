@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS survey_db;
+CREATE USER IF NOT EXISTS 'survey_user'@'%' IDENTIFIED BY 'usurvey123';
+GRANT ALL PRIVILEGES ON survey_db.* TO 'survey_user'@'%';
+FLUSH PRIVILEGES;
