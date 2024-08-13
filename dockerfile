@@ -1,14 +1,16 @@
 FROM php:7.4-apache
 
 # Install required packages
-RUN apt-get update && \
-    apt-get install -y wget gnupg openjdk-11-jdk && \
-    wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | apt-key add - && \
-    sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list' && \
-    apt-get update && \
-    apt-get install -y jenkins && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+
+RUN apt-get update
+RUN apt-get install -y wget gnupg openjdk-11-jdk --fix-missing
+RUN wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | apt-key add -
+RUN sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+RUN apt-get update
+RUN apt-get install -y jenkins --fix-missing
+RUN apt-get clean
+RUN rm -rf /var/lib/apt/lists/*
+
 
 # Enable Apache mods
 RUN a2enmod rewrite
