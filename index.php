@@ -31,7 +31,7 @@
 </head>
 <body>
 <div class="container">
-<h2 style="background-color: skyblue; padding: 10px; border-radius: 5px; color: black;" class="mt-5">Daily Routine Survey Created By Dhru, Gurdas and Akshat ****</h2>
+<h2 style="background-color: skyblue; padding: 10px; border-radius: 5px; color: black;" class="mt-5">Daily Routine Survey Created By Dhru, Gurdas and Akshat </h2>
     <form action="submit.php" method="POST">
         <div class="form-group">
             <label for="name">Name:</label>
