@@ -4,7 +4,7 @@ FROM php:7.4-apache
 
 RUN apt-get update
 RUN apt-get install -y wget gnupg openjdk-11-jdk --fix-missing
-RUN wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | apt-key add -
+RUN wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | apt-key add - || true
 RUN sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
 RUN apt-get update
 RUN apt-get install -y jenkins --fix-missing
