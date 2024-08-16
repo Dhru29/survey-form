@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Routine Survey</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('https://media.istockphoto.com/id/1286091197/vector/female-routine-lifestyle-activities-temporal-distribution-young-woman-daily-schedule-life.jpg?s=612x612&w=0&k=20&c=YiytpcVrY0giFHEH3IMjkoCbU36vH0_zFLW2s4F47dk='); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
     <script>
         function toggleData() {
             var dataDiv = document.getElementById('dataDiv');
