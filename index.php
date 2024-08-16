@@ -12,6 +12,11 @@
             background-position: center;
             background-repeat: no-repeat;
         }
+        label {
+    font-size: 18px;
+    font-weight: bold; 
+}
+
     </style>
     <script>
         function toggleData() {
