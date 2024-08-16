@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-image: url('https://cdn.prod.website-files.com/634681057b887c6f4830fae2/6367ddcf2529d14dd234e809_62e988d92c773535b74a6a0b_Following%2520Daily%2520Routines.png'); 
+            background-image: url('https://hubstaff.com/blog/wp-content/uploads/2024/04/Daily-Routines-and-Habits-of-Productive-People.png'); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
