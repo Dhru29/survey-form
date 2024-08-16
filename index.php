@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-image: url('https://media.istockphoto.com/id/1286091197/vector/female-routine-lifestyle-activities-temporal-distribution-young-woman-daily-schedule-life.jpg?s=612x612&w=0&k=20&c=YiytpcVrY0giFHEH3IMjkoCbU36vH0_zFLW2s4F47dk='); 
+            background-image: url('https://cdn.prod.website-files.com/634681057b887c6f4830fae2/6367ddcf2529d14dd234e809_62e988d92c773535b74a6a0b_Following%2520Daily%2520Routines.png'); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
